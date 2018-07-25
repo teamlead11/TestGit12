@@ -13,7 +13,7 @@ public class BaseClass {
 
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
-
+		MeenaStringReversal();
 
 	}
 
@@ -69,6 +69,20 @@ public class BaseClass {
         System.out.println(reverse);
     }
 	
+	public static void MeenaStringReversal(){
+					
+			String name = "Akshay";
+			
+			int size = name.length();
+			System.out.println("Total size is " + size);
+			int i =4;
+				 while(i<5 && i!=-1){
+					 System.out.print(name.charAt(i));
+					 i--;
+				 }
+			  
+			}
+	}
 	
 
-}
+
