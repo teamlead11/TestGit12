@@ -13,6 +13,7 @@ public class BaseClass {
 
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
+		amudhanStringReverse();
 
 
 	}
@@ -69,6 +70,11 @@ public class BaseClass {
         System.out.println(reverse);
     }
 	
-	
+	public static void amudhanStringReverse() {
+	String s = "amudhan";
+    String r = new StringBuffer(s).reverse().toString();
+    System.out.println("Before: "+s);
+    System.out.println("After: "+r);
+ }
 
 }
