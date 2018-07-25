@@ -75,7 +75,7 @@ public class BaseClass {
 			
 			int size = name.length();
 			System.out.println("Total size is " + size);
-			int i =4;
+			int i = 4;
 				 while(i<5 && i!=-1){
 					 System.out.print(name.charAt(i));
 					 i--;
