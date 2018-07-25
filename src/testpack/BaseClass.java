@@ -12,6 +12,7 @@ public class BaseClass {
 
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
+		MeenaStringReverse();
 
 
 	}
@@ -61,5 +62,12 @@ public class BaseClass {
         System.out.println("Reversed string is:");
         System.out.println(reverse);
     }
+	
+	public static void MeenaStringReverse(){
+		String s = "Hello welcome to Git";
+		StringBuilder sbuf = new StringBuilder(s);
+		sbuf.append(" in Greens");
+		System.out.println(sbuf);
+	}
 
 }
