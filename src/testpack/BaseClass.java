@@ -8,15 +8,18 @@ public class BaseClass {
 
 		// TODO Auto-generated method stub
 		rajan();
+		nithyaStringReverse();
 
 		lohithaStringReverse();
-
+		bhavithaStringReverse();
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
 		
 		System.out.println("Check");
 
 
+		MeenaStringReversal();
+		aarthiStringReverse();
 	}
 
 	public static void lohithaStringReverse() {
@@ -25,10 +28,22 @@ public class BaseClass {
         input1.append(input);
         input1 = input1.reverse();
         System.out.println(input1);
- 
-       
-	
 	}
+	
+	public static void bhavithaStringReverse() {
+		String string = "bhavitha";
+	    String reverse = new StringBuffer(string).reverse().toString();
+	    System.out.println("\nString before reverse: "+string);
+	    System.out.println("String after reverse: "+reverse);
+	}
+	
+	
+	public static void nithyaStringReverse() {
+	String string = "abcdefgh";
+    String reverse = new StringBuffer(string).reverse().toString();
+    System.out.println("\nString before reverse: "+string);
+    System.out.println("String after reverse: "+reverse);
+ }
 
 	
 	public static void siddharthaStringReverse(String a)
@@ -79,4 +94,36 @@ public class BaseClass {
  	}
 	
    
-}
+
+	public static void MeenaStringReversal(){
+					
+			String name = "Akshay";
+			
+			int size = name.length();
+			System.out.println("Total size is " + size);
+			int i = 4;
+				 while(i<5 && i!=-1){
+					 System.out.print(name.charAt(i));
+					 i--;
+				 }
+			  
+			}
+	
+	public static void aarthiStringReverse() {
+			System.out.println("Enter string to reverse:");
+			
+			Scanner read = new Scanner(System.in);
+			String str = read.nextLine();
+			
+			StringBuilder sb = new StringBuilder(str);
+			
+			System.out.println("Reversed:");
+			System.out.println(sb.reverse().toString());
+			}
+
+	
+	
+	}
+	
+
+
