@@ -20,6 +20,7 @@ public class BaseClass {
 		MeenaStringReversal();
 		pradeepaReverseString();
 		aarthiStringReverse();
+		amudhanReverseString();
 	}
 
 	public static void lohithaStringReverse() {
@@ -135,6 +136,12 @@ public class BaseClass {
 			System.out.println(sb.reverse().toString());
 			}
 
+	public static void amudhanReverseString() {
+		String s = "amudhan";
+	    String r = new StringBuffer(s).reverse().toString();
+	    System.out.println("Before: "+s);
+	    System.out.println("After: "+r);
+	}
 
 	}
 		
