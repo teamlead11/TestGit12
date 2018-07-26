@@ -7,11 +7,14 @@ public class BaseClass {
 	public static void main(String[] args) {
 
 		// TODO Auto-generated method stub
+		rajan();
 
 		lohithaStringReverse();
 
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
+		
+		System.out.println("Check");
 
 
 	}
@@ -61,5 +64,19 @@ public class BaseClass {
         System.out.println("Reversed string is:");
         System.out.println(reverse);
     }
-
+	
+	public static void rajan() {
+		
+	   String s1="rajanstring";
+	   
+	   int length=s1.length();
+	   String s2="";
+	   for(int i=length-1;i>=0;i--) {
+		   s2=s2+s1.charAt(i);
+		  
+	   }
+	   System.out.println(s2);
+ 	}
+	
+   
 }
