@@ -10,7 +10,7 @@ public class BaseClass {
 		nithyaStringReverse();
 
 		lohithaStringReverse();
-
+		bhavithaStringReverse();
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
 		MeenaStringReversal();
@@ -23,10 +23,16 @@ public class BaseClass {
         input1.append(input);
         input1 = input1.reverse();
         System.out.println(input1);
- 
-       
-	
 	}
+	
+	public static void bhavithaStringReverse() {
+		String string = "bhavitha";
+	    String reverse = new StringBuffer(string).reverse().toString();
+	    System.out.println("\nString before reverse: "+string);
+	    System.out.println("String after reverse: "+reverse);
+	}
+	
+	
 	public static void nithyaStringReverse() {
 	String string = "abcdefgh";
     String reverse = new StringBuffer(string).reverse().toString();
