@@ -14,7 +14,7 @@ public class BaseClass {
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
 		MeenaStringReversal();
-
+		aarthiStringReverse();
 	}
 
 	public static void lohithaStringReverse() {
@@ -88,6 +88,21 @@ public class BaseClass {
 				 }
 			  
 			}
+	
+	public static void aarthiStringReverse() {
+		{
+			System.out.println("Enter string to reverse:");
+			
+			Scanner read = new Scanner(System.in);
+			String str = read.nextLine();
+			
+			StringBuilder sb = new StringBuilder(str);
+			
+			System.out.println("Reversed:");
+			System.out.println(sb.reverse().toString());}
+
+	}
+	
 	}
 	
 
