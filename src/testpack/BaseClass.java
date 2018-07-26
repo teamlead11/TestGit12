@@ -28,7 +28,7 @@ public class BaseClass {
 	
 	}
 	public static void nithyaStringReverse() {
-	String string = "abcdef";
+	String string = "abcdefgh";
     String reverse = new StringBuffer(string).reverse().toString();
     System.out.println("\nString before reverse: "+string);
     System.out.println("String after reverse: "+reverse);
