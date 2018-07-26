@@ -8,12 +8,12 @@ public class BaseClass {
 
 		// TODO Auto-generated method stub
 		nithyaStringReverse();
-
 		lohithaStringReverse();
 		bhavithaStringReverse();
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
 		MeenaStringReversal();
+		pradeepaReverseString();
 		aarthiStringReverse();
 	}
 
@@ -89,6 +89,20 @@ public class BaseClass {
 			  
 			}
 	
+
+	public static void pradeepaReverseString()
+	{
+		System.out.println("Enter the String to Reverse:");
+		Scanner s = new Scanner(System.in);
+		String s1 = s.nextLine();
+	    int l=s1.length();
+	    String s2="";
+	    for(int i=l-1;i>=0;i--) {
+		s2=s2+s1.charAt(i);
+	    }
+	    System.out.println(s2);
+	}
+
 	public static void aarthiStringReverse() {
 		{
 			System.out.println("Enter string to reverse:");
@@ -102,8 +116,10 @@ public class BaseClass {
 			System.out.println(sb.reverse().toString());}
 
 	}
+		
+}
 	
-	}
+
 	
 
 
