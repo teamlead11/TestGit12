@@ -23,6 +23,7 @@ public class BaseClass {
 		aarthiStringReverse();
 		amudhanReverseString();
 		lydiaReverseString();
+		premnathReverseString();
 	}
 
 	public static void lohithaStringReverse() {
@@ -172,6 +173,27 @@ public static void nishaReverseString(){
            }
 	           System.out.println(reverse);	
 	}
+	
+	
+	public static void premnathReverseString()
+	{
+		String str = "Premnath";
+		char[] s = str.toCharArray();
+		
+		int l = s.length;
+		int j = l-1;
+		char c;
+		for(int i=0;i<l/2;i++)
+		{
+			c=s[i];
+			s[i]=s[j];
+			s[j]=c;
+			j--;
+		}
+		
+		System.out.println(s);
+	}
+	
 }
 
 	
