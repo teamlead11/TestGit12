@@ -21,6 +21,7 @@ public class BaseClass {
 		pradeepaReverseString();
 		aarthiStringReverse();
 		amudhanReverseString();
+		lydiaReverseString();
 	}
 
 	public static void lohithaStringReverse() {
@@ -143,8 +144,18 @@ public class BaseClass {
 	    System.out.println("After: "+r);
 	}
 
+	
+	public static void lydiaReverseString()
+	{
+           String str="Welcome";
+           String reverse="";
+           for ( int i=str.length()-1;i>=0;i--) {
+	       char c = str.charAt(i);
+	       reverse=reverse+c;
+           }
+	           System.out.println(reverse);	
 	}
-		
+}
 
 	
 
