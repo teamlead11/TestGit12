@@ -13,8 +13,6 @@ public class BaseClass {
 
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
-
-
 	}
 
 	public static void lohithaStringReverse() {
