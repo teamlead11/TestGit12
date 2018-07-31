@@ -7,14 +7,23 @@ public class BaseClass {
 	public static void main(String[] args) {
 
 		// TODO Auto-generated method stub
+		rajan();
+		nishaReverseString();
 		nithyaStringReverse();
 		lohithaStringReverse();
 		bhavithaStringReverse();
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
+		
+		System.out.println("Check");
+
+
 		MeenaStringReversal();
 		pradeepaReverseString();
 		aarthiStringReverse();
+		amudhanReverseString();
+		lydiaReverseString();
+		premnathReverseString();
 	}
 
 	public static void lohithaStringReverse() {
@@ -75,6 +84,21 @@ public class BaseClass {
         System.out.println(reverse);
     }
 	
+	public static void rajan() {
+		
+	   String s1="rajanstring";
+	   
+	   int length=s1.length();
+	   String s2="";
+	   for(int i=length-1;i>=0;i--) {
+		   s2=s2+s1.charAt(i);
+		  
+	   }
+	   System.out.println(s2);
+ 	}
+	
+   
+
 	public static void MeenaStringReversal(){
 					
 			String name = "Akshay";
@@ -104,7 +128,6 @@ public class BaseClass {
 	}
 
 	public static void aarthiStringReverse() {
-		{
 			System.out.println("Enter string to reverse:");
 			
 			Scanner read = new Scanner(System.in);
@@ -113,11 +136,66 @@ public class BaseClass {
 			StringBuilder sb = new StringBuilder(str);
 			
 			System.out.println("Reversed:");
-			System.out.println(sb.reverse().toString());}
+			System.out.println(sb.reverse().toString());
+			}
 
+	public static void amudhanReverseString() {
+		String s = "amudhan";
+	    String r = new StringBuffer(s).reverse().toString();
+	    System.out.println("Before: "+s);
+	    System.out.println("After: "+r);
 	}
-		
+
+
+public static void nishaReverseString(){
+	 
+			String s2="";
+			Scanner input=new Scanner(System.in);
+			String s1 = input.next();
+			for(int i=s1.length()-1;i>=0;i--){
+				s2=s2+s1.charAt(i);
+				
+			}
+			System.out.println(s2);
+			
 }
+		
+
+
+	
+	public static void lydiaReverseString()
+	{
+           String str="Welcome";
+           String reverse="";
+           for ( int i=str.length()-1;i>=0;i--) {
+	       char c = str.charAt(i);
+	       reverse=reverse+c;
+           }
+	           System.out.println(reverse);	
+	}
+	
+	
+	public static void premnathReverseString()
+	{
+		String str = "Premnath";
+		char[] s = str.toCharArray();
+		
+		int l = s.length;
+		int j = l-1;
+		char c;
+		for(int i=0;i<l/2;i++)
+		{
+			c=s[i];
+			s[i]=s[j];
+			s[j]=c;
+			j--;
+		}
+		
+		System.out.println(s);
+	}
+	
+}
+
 	
 
 	
