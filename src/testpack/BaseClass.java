@@ -8,6 +8,7 @@ public class BaseClass {
 
 		// TODO Auto-generated method stub
 		rajan();
+		nishaReverseString();
 		nithyaStringReverse();
 		lohithaStringReverse();
 		bhavithaStringReverse();
@@ -21,6 +22,8 @@ public class BaseClass {
 		pradeepaReverseString();
 		aarthiStringReverse();
 		amudhanReverseString();
+		lydiaReverseString();
+		premnathReverseString();
 	}
 
 	public static void lohithaStringReverse() {
@@ -143,8 +146,55 @@ public class BaseClass {
 	    System.out.println("After: "+r);
 	}
 
-	}
+
+public static void nishaReverseString(){
+	 
+			String s2="";
+			Scanner input=new Scanner(System.in);
+			String s1 = input.next();
+			for(int i=s1.length()-1;i>=0;i--){
+				s2=s2+s1.charAt(i);
+				
+			}
+			System.out.println(s2);
+			
+}
 		
+
+
+	
+	public static void lydiaReverseString()
+	{
+           String str="Welcome";
+           String reverse="";
+           for ( int i=str.length()-1;i>=0;i--) {
+	       char c = str.charAt(i);
+	       reverse=reverse+c;
+           }
+	           System.out.println(reverse);	
+	}
+	
+	
+	public static void premnathReverseString()
+	{
+		String str = "Premnath";
+		char[] s = str.toCharArray();
+		
+		int l = s.length;
+		int j = l-1;
+		char c;
+		for(int i=0;i<l/2;i++)
+		{
+			c=s[i];
+			s[i]=s[j];
+			s[j]=c;
+			j--;
+		}
+		
+		System.out.println(s);
+	}
+	
+}
 
 	
 
