@@ -6,7 +6,7 @@ public class BaseClass {
 
 	public static void main(String[] args) {
 
-		// TODO Auto-generated method stub
+		
 		rajan();
 		nishaReverseString();
 		nithyaStringReverse();
@@ -14,6 +14,7 @@ public class BaseClass {
 		bhavithaStringReverse();
 		siddharthaStringReverse("Siddharthan Prabakaran");
 		VetriStringReverse();
+
 		
 		System.out.println("Check");
 
@@ -24,6 +25,7 @@ public class BaseClass {
 		amudhanReverseString();
 		lydiaReverseString();
 		premnathReverseString();
+
 	}
 
 	public static void lohithaStringReverse() {

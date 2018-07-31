@@ -1,4 +1,4 @@
-package org.test.SampleTestng;
+package testpack;
 
 import java.util.List;
 
