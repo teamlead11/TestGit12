@@ -20,7 +20,7 @@ public class CustomMethod {
 	public static void addToCartBasedOnIndex(int index) throws Throwable {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Am Gracy\\eclipse\\Project\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Am Gracy\\git\\TestGit12\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
