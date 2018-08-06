@@ -1,9 +1,9 @@
 #Author: your.email@your.domain.com
 
-@tag
+#@tag
 Feature: to test demoqa registration page
 
-  @tag1
+  #@tag1
   Scenario: to test first name and lastname textbox
     Given The user is in demoqa page
 
