@@ -20,7 +20,6 @@ public class BobWait {
 				"C:\\Users\\Am Gracy\\eclipse\\TestGit12\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
 
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
